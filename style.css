@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: #5D5D7D;
+    font-weight: 400;
+}
+    .container{
+    width: 100vw;
+    height: 100vh;
+    }
+   .section-one{
+    display: inline-block;
+    width: 60%;
+   }
+   .article{
+    margin-top: 25%;
+    margin-left: 136px;
+   }
+   .article h1{
+    width: 368px;
+    height: 160px;
+    font-size: 70px;
+    line-height: 80px;
+   }
+   .article p{
+    width: 540px;
+    height: 144px;
+    font-size: 28px;
+    line-height: 48px;
+    margin: 15px 0px;
+   }
+   .article button{
+    width: 269px;
+    height: 62px;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+   }
+   .article button:hover{
+    opacity: 0.8;
+   }
+   .article button:active{
+    opacity: .5;
+   }
+   .section-two{
+    display: inline-block;
+    position: absolute;
+    background-color:  rgba(93, 93, 125, 0.16);
+    width: 40%;
+    height: 100vh;
+   }
+   .section-two .header{
+    position: absolute;
+    margin: 24px 58px 0 58px;
+   }
+   .section-two .header a{
+    font-weight: 400;
+    font-size: 28px;
+    margin-right: 41px;
+    text-decoration: none;
+   }
+   .section-two .header a:last-child{
+    margin-right: 0px;
+   }
+   .section-two .header a:nth-child(2){
+    opacity: 40%;
+   }
+   
+   .section-two .logo-image img{
+    position: relative;
+    top:150.88px;
+    right: 130px;
+   }
+   @media screen and (max-width: 900px){
+    
+    .section-one{
+        display: block;
+        width: 100vw;
+        height: 50vh;
+     }
+     .article{
+        margin: 0;
+        padding: 0;
+        margin: 58px 39px 47px 40px;
+        justify-items: center;
+        
+   }
+   .article h1{
+        font-weight: 400;
+        font-size: 36px;
+        width: auto;
+        height: 104px;
+        line-height: 52px;
+        letter-spacing: 0px;
+        padding: 0px 20px;
+        text-align: center;
+   }
+   .article p{
+        font-weight: 400;
+        font-size: 14px;
+        width: auto;
+        height: 96px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        padding: 0px 30px;
+        text-align: center;
+        margin: 15px 0px;
+   }
+    .section-two{
+        display: flex;
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 40px;
+        margin: 0 auto;
+    }
+    .section-two .header{
+        display: none;
+    }
+    .section-two .logo-image img{
+        position: static;
+        max-width: 100%;
+        margin: 0 auto;
+
+    }
+}
+
+   
