@@ -7,5 +7,5 @@
    <img align="center" height="30" width="40 "src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />     
  </div>
  <h2>📷 Imagens:</h2>
- <img src="./img/Tela de Apresentação.png">
+ <img src="./img/Tela_de_Apresentação.png">
  
